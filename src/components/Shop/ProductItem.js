@@ -15,7 +15,6 @@ const ProductItem = (props) => {
       price,
     };
     dispatch(cartActions.addItem(item));
-    fetch();
   };
   return (
     <li className={classes.item}>
